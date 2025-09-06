@@ -1,0 +1,2 @@
+# thoughts
+blog/journal
