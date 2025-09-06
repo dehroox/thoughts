@@ -1,6 +1,9 @@
 title: Derek's Journal
 description: My journal/blog
-theme: minima
 permalink: /:title/
 baseurl: "/thoughts"
 url: "https://dehroox.github.io"
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: cotes2020/jekyll-theme-chirpy
