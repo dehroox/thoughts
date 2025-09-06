@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1><a href="{{ "/" | relative_url }}">My Journal</a></h1>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} My Journal</p>
+  </footer>
+</body>
+</html>
+

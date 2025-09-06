@@ -3,7 +3,3 @@ description: My journal/blog
 permalink: /:title/
 baseurl: "/thoughts"
 url: "https://dehroox.github.io"
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: jeffreytse/jekyll-theme-yat
